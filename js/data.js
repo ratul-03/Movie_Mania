@@ -1,0 +1,45 @@
+const movieReviewData = [
+  [
+    {
+      id: '663a0a05bfe65e5778eedf58',
+      title: 'The Avengers',
+      content: 'I am an Avenger fan... Big fan',
+      rating: 4,
+      by: 'Peter D',
+      on: 1757494800000,
+    },
+    {
+      id: '663a0a05bfe65e5778eedf58',
+      title: 'The Avengers',
+      content: 'Great movie! Will watch again.',
+      rating: 5,
+      by: 'Kiran K',
+      on: 1757494800000,
+    },
+  ],
+  [
+    {
+      id: '664acd311387e2ad2e8be48b',
+      title: 'Interstellar',
+      content: 'What a movie, super scifi',
+      rating: 5,
+      by: 'Akram K',
+      on: 1757494800000,
+    },
+  ],
+  [
+    {
+      id: '664acd311387e2ad2e8be48c',
+      title: 'Jodha',
+      content: 'I love the action scenes',
+      rating: 4.5,
+      by: 'Md. Arifin Hasan Ratul',
+      on: 1757494800000,
+    },
+  ],
+];
+
+
+export function getMovieReviewData() {
+  return movieReviewData;
+};
